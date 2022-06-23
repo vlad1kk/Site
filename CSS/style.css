@@ -579,7 +579,7 @@ body {
 /* Intro styles start */
 .intro {
     height: 100vh;
-    background: url(../IMG/pexels-francesco-ungaro-998641\ 1.jpg) no-repeat, center;
+    background: url(/IMG/pexels-francesco-ungaro-998641\ 1.jpg) no-repeat, center;
     background-size: cover;
 }
 /* Intro styles end */
