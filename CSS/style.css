@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
@@ -529,13 +530,23 @@ body {
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
+    
 }
 
 .name {
-    color: green;
-    font-size: 35px;
-    font-family: 'Fascinate', cursive;
+    color: blue;
+    font-size: 70px;
+    font-family: 'Titan One', cursive;
+    text-shadow: -5px -1px 0px yellow;
+    padding-left: 45px;
 }
+.name_1 {
+    color: white ;
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-left: 37px;
+}
+
 /* Header styles start */
 .header {
     position: fixed;
@@ -581,5 +592,19 @@ body {
     height: 100vh;
     background: url(../IMG/pexels-francesco-ungaro-998641\ 1.jpg) no-repeat, center;
     background-size: cover;
+    padding-top: 263px;
 }
+.intro_title {
+    line-height: 1.5em;
+    font-size: 50px;
+    font-family: 'Titan One', cursive;
+    padding-left: 50px;
+    color: white;
+}
+
+.h3 {
+    padding-left: 50px;
+    color: gray;
+}
+
 /* Intro styles end */
