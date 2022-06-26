@@ -543,7 +543,7 @@ body {
 .name_1 {
     color: white ;
     font-size: 30px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Titan One', cursive;
     padding-left: 37px;
 }
 
@@ -594,17 +594,38 @@ body {
     background-size: cover;
     padding-top: 263px;
 }
+.welcome {  
+    max-width: 450px;
+    max-height: 450px;
+    display: inline-block;
+}
+.photo{
+    max-width: 450px;
+    max-height: 450px;
+    display: block;
+    margin: 5px;
+    background-color: rgb(164, 85, 85);
+}
+.welcome_1 {
+    display: inline-block;
+
+}
 .intro_title {
     line-height: 1.5em;
-    font-size: 50px;
+    font-size: 69px;
     font-family: 'Titan One', cursive;
-    padding-left: 50px;
     color: white;
 }
-
 .h3 {
-    padding-left: 50px;
     color: gray;
 }
+.latter {
+    color: blue;
+    font-size: 70px;
+    font-family: 'Titan One', cursive;
+    text-shadow: -5px -1px 0px yellow;
+    display: inline;
+}
+
 
 /* Intro styles end */
